@@ -2,7 +2,8 @@
     background-color: black;
     padding-top: 2%;
     padding-bottom: 2%;
-   
+    opacity: 0.3;
+    filter: alpha(opacity=30);
 }
 html {
     background-color: #141414;
@@ -23,5 +24,11 @@ input {
     padding-right: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.image_1{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 
 
