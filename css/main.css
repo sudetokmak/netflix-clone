@@ -2,8 +2,6 @@
     background-color: black;
     padding-top: 2%;
     padding-bottom: 2%;
-    opacity: 0.3;
-    filter: alpha(opacity=30);
 }
 body {
     background-color: #141414;
@@ -12,11 +10,19 @@ input {
     background-color: #1b1b1b;
     border-color: white;
 }
-.netFlix {
-    
-}
 .fontTip{
-    background-color: #141414;
+    color: #999;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imageOne{
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 100%;
+}
+.agendas{
     color: #999;
     padding-top: 20px;
     padding-left: 15px;
@@ -24,10 +30,6 @@ input {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.image_1{
-    padding-left: 2%;
-    padding-right: 2%;
-}
 
 
 
