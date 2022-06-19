@@ -1,6 +1,6 @@
 .ustKat {
     background-color: black;
-    padding-top: 2%;nt
+    padding-top: 2%;
     padding-bottom: 2%;
 }
 body {
@@ -22,26 +22,29 @@ body {
   
     
 }
-//.agendas{
+.agendas{
     color: #999;
     padding-top: 20px;
     padding-left: 5px;
     padding-right: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-//.series{
+.series{
     color: #999;
     padding-top: 20px;
     padding-left: 5px;
     padding-right: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-//.americanSeries{
+.americanSeries{
     color: #999;
     padding-top: 20px;
     padding-left: 5px;
     padding-right: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.katılBtn{
+    background-color: #e50914;
 }
 
 
