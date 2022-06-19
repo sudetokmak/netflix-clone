@@ -12,13 +12,16 @@
 
   <title>Hello, world!</title>
   <link href="css/main.css" rel="stylesheet">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/sweetalert.min.js"></script>
+
 </head>
 
 <body>
   <div class="container generalDiv">
     <div class="row ustKat">
       <div class="col-1">
-        <img src="https://assets.nflxext.com/ffe/siteui/akira/fallback/hamburger.gif" width="20px">
+        <img class="menuBtn" src="https://assets.nflxext.com/ffe/siteui/akira/fallback/hamburger.gif" width="20px">
 
       </div>
 
@@ -85,6 +88,14 @@
     </div>
 
   </div>
+
+<script>
+  $(".menuBtn").click(function(){
+    swal("Uyarı!", "Buraya daha sonra menü eklenecektir. The menu will add soon.", "success");
+  })
+</script>
+
+
 
   <!-- Optional JavaScript; choose one of the two! -->
 
